@@ -158,8 +158,12 @@ li {
 .header {
     min-height: 80vh;
     height: 500px;
-    background: url(../img/bg-banner-claro.png) center no-repeat;
+    background: linear-gradient(rgba(255, 0, 255, 0.2),
+                                rgba(255, 0, 255, 0.2)),
+                url(../img/turma6.jpeg);
     background-size: cover;
+    background-position: center 14%;
+    background-repeat: no-repeat;
     display: flex;
     align-items: flex-end;
     text-align: center;
